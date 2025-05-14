@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Principal */
+    --red: #E3646E;
+    --purple: #BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+
+    /* Base */
+    --gray-100: #0D0E11;
+    --gray-200: #16181D;
+    --gray-300: #292C34;
+    --gray-400: #878EA1;
+    --gray-500: #C0C4CE;
+    --gray-600: #E2E4E9;
+
+    /* Font Families */
+    --font-asap: 'Asap', sans-serif;
+    --font-inconsolata: 'Inconsolata', monospace;
+    --font-maven: 'Maven Pro', sans-serif;
+
+       /* Typography */
+    --title-lg: bold 56px/120% 'Asap', sans-serif;
+    --title-md: bold 24px/120% 'Asap', sans-serif;
+    --title-sm: bold 16px/120% 'Asap', sans-serif;
+    --subtitle: 400 20px/120% 'Inconsolata', monospace;
+    --text-md: 400 16px/140% 'Maven Pro', sans-serif;
+    --text-sm: 400 14px/140% 'Maven Pro', sans-serif;
+}
+
+body{
+    background-color: var(--gray-200);
+    color: var(--gray-500);
+    max-width: 100vw;
+    margin: auto;
+}
